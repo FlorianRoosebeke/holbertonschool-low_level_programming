@@ -1,1 +1,2 @@
-gcc -E name_of_file
+#!/bin/bash
+gcc -E $MYFILE
