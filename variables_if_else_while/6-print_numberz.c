@@ -12,12 +12,11 @@ int main(void)
 {
 	char ascii;
 
-	ascii = 48;
+	ascii = 47;
 
 	while (ascii != 57)
 {
 		ascii++;
-		continue;
 		putchar(ascii);
 }
 		putchar('\n');
