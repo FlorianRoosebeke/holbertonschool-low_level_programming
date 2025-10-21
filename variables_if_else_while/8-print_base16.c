@@ -10,22 +10,22 @@
  */
 int main(void)
 {
-  char ascii;
-  char letter;
+char ascii;
+char letter;
 
-  ascii = 47;
+ascii = 47;
 
-  while (ascii != 57)
-  {
-    ascii++;
-    putchar(ascii);
-  }
-  letter = 96;
-  while (letter != 102)
-  {
-    letter++;
-    putchar(letter);
-  }
-  putchar('\n');
-  return (0);
+while (ascii != 57)
+{
+ascii++;
+putchar(ascii);
+}
+letter = 96;
+while (letter != 102)
+{
+letter++;
+putchar(letter);
+}
+putchar('\n');
+return (0);
 }
