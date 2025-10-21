@@ -18,5 +18,6 @@ while (digit != 9)
 digit++;
 printf("%d", digit);
 }
+putchar('\n');
 return (0);
 }
