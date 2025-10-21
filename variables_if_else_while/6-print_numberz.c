@@ -8,16 +8,18 @@
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-int digit = -1;
+	char ascii;
 
-while (digit != 9)
+	ascii = 48;
+
+	while (ascii != 57)
 {
-digit++;
-printf("%d", digit);
+		ascii++;
+		continue;
+		putchar(ascii);
 }
-putchar('\n');
-return (0);
-}
+		putchar('\n');
+		return (0);
+	}
