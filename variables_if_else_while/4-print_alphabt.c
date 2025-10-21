@@ -23,6 +23,7 @@ int main(void)
 		if (ascii == 113)
 			continue;
 		putchar(ascii);
+		putchar('\n');
 }
 		return (0);
 	}
