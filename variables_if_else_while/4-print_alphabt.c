@@ -15,7 +15,7 @@ int main(void)
 
 	ascii = 96;
 
-	while (ascii != 123)
+	while (ascii != 122)
 {
 		ascii++;
 		if (ascii == 101)
