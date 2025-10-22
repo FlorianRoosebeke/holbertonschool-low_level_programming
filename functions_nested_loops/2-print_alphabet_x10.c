@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_alphabet - affiche l'alphabet en minuscules 10 fois
+ * print_alphabet_x10 - affiche l'alphabet en minuscules 10 fois
  * suivi d'un retour à la ligne
- *  print_alphabet_x10
+ * print_alphabet_x10 -x10
  */
 void print_alphabet_x10(void)
 {
