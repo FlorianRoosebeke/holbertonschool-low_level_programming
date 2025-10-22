@@ -11,20 +11,19 @@
 
 int main(void)
 {
-  char number;
-  number = 47;
+char number;
+number = 47;
 
-  while (number != 57)
-  {
-    number++;
-    putchar(number);
-    if (number != 57)
-    {
-      putchar(44);
-      putchar(32);
-    }
-     
-  } 
-  putchar('\n');
-  return (0);
+while (number != 57)
+{
+number++;
+putchar(number);
+if (number != 57)
+{
+putchar(44);
+putchar(32);
+}
+}
+putchar('\n');
+return (0);
 }
