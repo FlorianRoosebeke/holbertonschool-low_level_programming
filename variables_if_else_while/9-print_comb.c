@@ -14,13 +14,13 @@ int main(void)
 char number;
 number = 47;
 
-while (number != 57)
+while (number != 56)
 {
 number++;
 putchar(number);
 putchar(44);
 putchar(32);
 }
-putchar('\n');
+putchar(57);
 return (0);
 }
