@@ -1,23 +1,18 @@
 #include "main.h"
 /**
- * print_last_digit -Write a function that prints the last digit.
- * @x : print number
- *
+ * print_last_digit :-Write print last number with %
+ * @r : modulo 10
  * Return: return 1 or 0 cool
  */
 int print_last_digit(int r)
 {
 	int n = (r % 10);
 
-	if (n >= 0)
-	{
-	_putchar(n + '0');
-	}
+	if (n < 0)
+	n = -n;
 	else
-    {
-		_putchar(-n + '0');
-        return (-n);
-	}
-return (0);
+	n = n;
+	_putchar('0' + n);
+	return (n);
 }
 
