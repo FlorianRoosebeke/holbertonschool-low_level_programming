@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - affiche l'alphabet en minuscules 10 fois
- * suivi d'un retour à la ligne
- * print_alphabet_x10 -x10
+ * _islower - Write a function that checks for lowercase character
+ * @c: print alphabet in lowercase
+ *
+ * Return: return 1 or 0 cool
  */
-
 int _islower(int c)
 {
 	if (c <= 'z' && c >= 'a')
