@@ -17,8 +17,8 @@ int _abs(int x)
 	}
 	else
 {
-		return ('0');
-	}
+		return (0);
+}
 }
 
 
