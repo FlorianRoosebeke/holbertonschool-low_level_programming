@@ -1,10 +1,11 @@
 #include "main.h"
-/**
- * jack_bauer :Write a function that prints every minute of the day of Jack Bauer
- * @r : modulo 10
- * Return: return 1 or 0 cool
- */
 
+/**
+ * jack_bauer :-Whrite prints every minute of the day of Jack Bauer
+ * This function prints all minutes from 00:00 to 23:59, one per line,
+ * in the format HH:MM.
+ * No parameters and no return value.
+ */
 void jack_bauer(void)
 {
 	char dh, h, dmin, min;
@@ -20,12 +21,12 @@ void jack_bauer(void)
 			{
 				for (min = '0'; min <= '9'; min++)
 				{
-					_putchar(dh);
-					_putchar(h);
-					_putchar(':');
-					_putchar(dmin);
-					_putchar(min);
-					_putchar('\n');
+				_putchar(dh);
+				_putchar(h);
+				_putchar(':');
+				_putchar(dmin);
+				_putchar(min);
+				_putchar('\n');
 				}
 			}
 		}
