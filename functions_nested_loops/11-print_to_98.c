@@ -13,13 +13,13 @@ while (n != 98)
 	{
 	if (n > 98)
 	{
-		n--;
 		printf("%d, ",  n);
+		n--;
 	}
 	else
 	{
-		n++;
 		printf("%d, ", n);
+		n++;
 	}
 	}
 printf("98\n");
