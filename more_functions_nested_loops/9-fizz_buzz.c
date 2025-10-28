@@ -34,6 +34,6 @@ int main(void)
 			printf("%d ", nbre);
 		}
 	}
-
+	printf("\n");
 	return (0);
 }
