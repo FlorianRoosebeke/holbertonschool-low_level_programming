@@ -27,7 +27,7 @@ int main(void)
 		}
 		else if (nbre % 5 == 0)
 		{
-			printf("Fizz ");
+			printf("Buzz ");
 		}
 		else
 		{
