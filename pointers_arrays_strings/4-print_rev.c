@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * print_rev -:Write a function prints  in reverse, followed by a new line
  * @s : -char
