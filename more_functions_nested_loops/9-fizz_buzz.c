@@ -19,7 +19,7 @@ int main(void)
 	{
 		if (nbre % 3 == 0 && nbre % 5 == 0)
 		{
-			printf("FizBuzz ");
+			printf("FizzBuzz ");
 		}
 		else if (nbre % 3 == 0)
 		{
