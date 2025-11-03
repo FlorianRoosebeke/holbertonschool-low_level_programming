@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stddef.h>
 /**
- * _strpbrk - Searches a string for any of a set of bytes.
- * @s: String to be searched
- * @needle: String containing the bytes to look for
- * Return: Pointer to the byte in s that matches one of the bytes in needle,
- *         or NULL if no such byte is found
+ * _strstr - Locates a substring.
+ * @haystack: String to be searched
+ * @needle: Substring to look for
+ * Return: Pointer to the beginning of the located substring,
+ *         or NULL if the substring is not found
  */
 
 char *_strstr(char *haystack, char *needle)
@@ -18,13 +18,12 @@ char *_strstr(char *haystack, char *needle)
 		for (j = 0; needle[j] != '\0'; j++)
 		{
 
-			if (haystack[i] == needle[j])
-			{
-			
-			}
-		return (needle + j);
+			if (haystack[i + j] != needle[j])
+				break;
 		}
-	
+		if (needle[j] == '\0')
+			return (haystack + i);
 	}
-return (NULL);
+
+	return (NULL);
 }
