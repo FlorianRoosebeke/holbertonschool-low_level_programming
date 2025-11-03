@@ -14,7 +14,7 @@ unsigned int i = 0;
 
 while (i < n)
 {
-	dest[i] = src[n];
+	dest[i] = src[i];
 	i++;
 }
 
