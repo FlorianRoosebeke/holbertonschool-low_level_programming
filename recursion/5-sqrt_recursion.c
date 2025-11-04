@@ -4,8 +4,6 @@
  * _sqrt_recursion - returns the natural square root of a number
  * _square_root -calcul square of a number
  * @n: number to compute the square root of
- * @s : resul
- * @t : number 2
  * Return: natural square root, or -1 if n < 0 or no natural square root exists
  */
 
