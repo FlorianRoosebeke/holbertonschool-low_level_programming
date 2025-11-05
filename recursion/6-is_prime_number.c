@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion - returns the natural square root of a number
- * _square_root -calcul square of a number
- * @n: number to compute the square root of
- * Return: natural square root, or -1 if n < 0 or no natural square root exists
+ * is_prime_number - returns 1 if a number is prime, 0 otherwise
+ * root_is_prime_number - prime number function
+ * @n: number to check
+ *
+ * Return: 1 if n is prime, 0 otherwise
  */
 int is_prime_number(int n)
 {
