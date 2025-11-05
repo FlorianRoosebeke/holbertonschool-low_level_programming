@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 /**
  * main - prints the number of command line arguments
@@ -26,6 +27,10 @@ int main(int argc, char **argv)
 		if (argc <= 1)
 	{
 		putchar('\n');
+	}
+		if (!isdigit(argc))
+	{
+		return (0);
 	}
 
 	return (0);
