@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
 
 /**
  * main - prints the number of command line arguments
@@ -10,28 +9,27 @@
  * Return: 0 on success
  */
 
+#include <stdio.h>
+#include <stdlib.h>
+
 int main(int argc, char **argv)
 {
 	int i, sum = 0;
-	(void)argc;
-	(void)argv;
 
+	if (argc <= 1)
 	{
-		for (i = 1 ; i < argc ; i++)
-		{
+		printf("0\n");
+		return (1);
+	}
+
+
+	for (i = 1; i < argc; i++)
+	{
 		sum += atoi(argv[i]);
-		}
-		printf("%d\n", sum);
 	}
 
-		if (argc <= 1)
-	{
-		putchar('\n');
-	}
-		if (!isdigit(argc))
-	{
-		return (0);
-	}
+	printf("%d\n", sum);
+
 
 	return (0);
 }
