@@ -23,6 +23,7 @@ int main(int argc, char **argv)
 		printf("%d\n", mul);
 	}
 	else
-		return (1);
+	printf("Error\n");
+
 	return (0);
 }
