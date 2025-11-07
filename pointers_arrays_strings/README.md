@@ -31,3 +31,20 @@
 - `7-leet.c` – Convertir une chaîne en leet speak.
 
 **Compétences :** Manipulation de chaînes, gestion mémoire, transformations.
+
+# 0x06 – Even more pointers, arrays and strings
+
+**Objectif :** Manipuler pointeurs de pointeurs et tableaux multidimensionnels.
+
+**Fichiers :**
+- `0-memset.c` – Remplir la mémoire avec une valeur constante.  
+- `1-memcpy.c` – Copier une zone mémoire.  
+- `2-strchr.c` – Rechercher un caractère dans une chaîne.  
+- `3-strspn.c` – Calculer la longueur d’un préfixe.  
+- `4-strpbrk.c` – Rechercher un ensemble de caractères.  
+- `5-strstr.c` – Rechercher une sous-chaîne.  
+- `7-print_chessboard.c` – Afficher un échiquier.  
+- `8-print_diagsums.c` – Somme des diagonales d’une matrice.
+
+**Compétences :** Manipulation mémoire, tableaux 2D, pointeurs complexes.
+
