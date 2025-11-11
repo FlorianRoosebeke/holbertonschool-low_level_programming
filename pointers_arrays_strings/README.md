@@ -1,3 +1,50 @@
-0. 98 Battery st.
-mandatory
-Write a function that takes a pointer to an int as parameter and updates the value it points to to 98.
+# 0x04 – Pointers, arrays and strings
+
+**Objectif :** Manipuler pointeurs, tableaux et chaînes de caractères.
+
+**Fichiers :**
+- `0-reset_to_98.c` – Mettre à jour une valeur via un pointeur.  
+- `1-swap.c` – Échanger deux entiers.  
+- `2-strlen.c` – Calculer la longueur d’une chaîne.  
+- `3-puts.c` – Afficher une chaîne.  
+- `4-print_rev.c` – Afficher une chaîne à l’envers.  
+- `5-rev_string.c` – Inverser une chaîne.  
+- `6-puts2.c` – Afficher un caractère sur deux.  
+- `7-puts_half.c` – Afficher la seconde moitié d’une chaîne.  
+- `8-print_array.c` – Afficher les n premiers éléments d’un tableau.
+
+**Compétences :** Pointeurs, tableaux, manipulation de chaînes.
+
+
+# 0x05 – More pointers, arrays and strings
+
+**Objectif :** Approfondir la manipulation des chaînes et pointeurs.
+
+**Fichiers :**
+- `0-strcat.c` – Concaténer deux chaînes.  
+- `1-strncat.c` – Concaténer deux chaînes avec limite.  
+- `2-strncpy.c` – Copier une chaîne dans une autre.  
+- `3-strcmp.c` – Comparer deux chaînes.  
+- `4-rev_array.c` – Inverser un tableau d’entiers.  
+- `5-string_toupper.c` – Mettre une chaîne en majuscules.  
+- `6-cap_string.c` – Mettre en majuscules la première lettre de chaque mot.  
+- `7-leet.c` – Convertir une chaîne en leet speak.
+
+**Compétences :** Manipulation de chaînes, gestion mémoire, transformations.
+
+# 0x06 – Even more pointers, arrays and strings
+
+**Objectif :** Manipuler pointeurs de pointeurs et tableaux multidimensionnels.
+
+**Fichiers :**
+- `0-memset.c` – Remplir la mémoire avec une valeur constante.  
+- `1-memcpy.c` – Copier une zone mémoire.  
+- `2-strchr.c` – Rechercher un caractère dans une chaîne.  
+- `3-strspn.c` – Calculer la longueur d’un préfixe.  
+- `4-strpbrk.c` – Rechercher un ensemble de caractères.  
+- `5-strstr.c` – Rechercher une sous-chaîne.  
+- `7-print_chessboard.c` – Afficher un échiquier.  
+- `8-print_diagsums.c` – Somme des diagonales d’une matrice.
+
+**Compétences :** Manipulation mémoire, tableaux 2D, pointeurs complexes.
+
