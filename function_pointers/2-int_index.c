@@ -1,10 +1,13 @@
 #include <stdio.h>
 #include "function_pointers.h"
 /**
- * array_iterator - execute a function on each element of an integer array
+ * int_index - search an array for the first element that matches a condition
  * @array: pointer to the array of integers
  * @size: number of elements in the array
- * @action: pointer to a function that takes an int and returns void
+ * @cmp: pointer to a function that compares an int returns non-zero on match
+ *
+ * Return: index of the first element for which cmp returns non-zero,
+ *         or -1 if the array is NULL, size is 0 cp is NULL no element matches
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
