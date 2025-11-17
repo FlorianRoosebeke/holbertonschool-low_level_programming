@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include "function_pointers.h"
+/**
+ * array_iterator - execute a function on each element of an integer array
+ * @array: pointer to the array of integers
+ * @size: number of elements in the array
+ * @action: pointer to a function that takes an int and returns void
+ */
+int int_index(int *array, int size, int (*cmp)(int))
+{
+	int i;
+
+	if (array == NULL)
+		return (1);
+
+	if (size == 0)
+		return (-1);
+
+	for (i = 0; i < size; i++)
+	{
+		cmp(array[i]);
+		if (cmp(array[i]) != 0)
+			return (i);
+	}
+return (0);
+}
