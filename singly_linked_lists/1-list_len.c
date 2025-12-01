@@ -13,12 +13,10 @@ size_t list_len(const list_t *h)
 {
 	size_t count = 0;
 
+	if (h->str == NULL)
+		printf("[0] (nil)\n");
 	while (h != NULL)
 	{
-		if (h->str == NULL)
-			printf("[0] (nil)\n");
-		else
-			printf("[%u]\n", h->len);
 
 		h = h->next;
 		count++;
