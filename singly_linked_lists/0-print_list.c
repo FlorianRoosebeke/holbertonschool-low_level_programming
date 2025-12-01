@@ -11,12 +11,18 @@
  */
 size_t print_list(const list_t *h)
 {
-	struct list *h = NULL;
+	size_t count = 0;
 
-	h = (struct list *)malloc(sizeof(struct list));
+	while (h != NULL)
+	{
+		if (h->str == NULL)
+			printf("[0] (nil)\n");
+		else
+			printf("[%u] %s\n", h->len, h->str);
 
-	if (h == NULL)
-		printf("[0] (nil)\n");
-	else
-		printf("%s", h->data);
+		h = h->next;
+		count++;
+	}
+
+	return (count);
 }
